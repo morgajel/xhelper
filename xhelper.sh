@@ -8,6 +8,7 @@ if [[ $# < 2 ]] ; then
     echo ERROR: xhelper requires two arguments.
     echo "    Usage:"
     echo "      ./xhelper.sh jboss /usr/java/latest/bin/jvisualvm"
+    exit;
 fi
 
 # Grab the latest xauth ID from the list (note that these may build up over time; you may want to check that.
